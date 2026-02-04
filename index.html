@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>회사 주식 특별 배분 관련 FAQ</title>
+    <title>2026년 ITA 선발 유지율 기준 변경 안내</title>
     
-    <meta property="og:title" content="회사 주식 특별 배분 관련 FAQ">
-    <meta property="og:description" content="회사 성과 공유를 위한 주식 특별 배분 관련 주요 절차 및 유의사항 안내">
-    <meta property="og:image" content="https://raw.githubusercontent.com/incarmarketing/stock-compensation/main/Thumbnail.png">
-    <meta property="og:url" content="https://incarmarketing.github.io/stock-compensation/">
+    <meta property="og:title" content="2026년 ITA 선발 유지율 기준 변경 FAQ">
+    <meta property="og:description" content="2026년 ITA(Incar Top Advisor) 선발 대상자 요건 중 유지율 기준 변경에 대한 안내입니다.">
     <meta property="og:type" content="website">
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -52,26 +50,9 @@
             font-size: 0.875rem;
         }
 
-        /* 로고 위치를 위한 스타일 */
-        .logo-container {
-            position: relative;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start; /* 로고가 상단에 정렬되도록 수정 */
-        }
-        .company-logo {
-            width: 100px;
-            height: auto;
-        }
-        .kosdaq-logo {
-            width: 80px;
-            height: auto;
-        }
-
         /* 제목과 로고가 겹치지 않도록 상단 패딩 조정 */
         .main-container {
-            padding-top: 5rem;
+            padding-top: 3rem;
         }
 
         /* 태블릿 및 데스크톱 환경에서 폰트 및 로고 크기, 위치 조정 */
@@ -91,14 +72,8 @@
             .answer-text {
                 font-size: 1rem;
             }
-            .company-logo {
-                width: 120px;
-            }
-            .kosdaq-logo {
-                width: 100px;
-            }
             .main-container {
-                padding-top: 6rem;
+                padding-top: 4rem;
             }
         }
         
@@ -118,7 +93,7 @@
             }
 
             /* 웹 전용 UI 요소 숨기기 */
-            .logo-container, .chevron-icon, .added-image {
+            .chevron-icon, .added-image {
                 display: none !important;
             }
             
@@ -182,287 +157,162 @@
         }
     </style>
 </head>
-<!-- body 태그는 기존 스타일을 그대로 유지합니다 -->
 <body class="p-4 md:p-8 flex items-center justify-center min-h-screen">
     
-    <!-- ✅ 이 부분에 max-h-screen과 overflow-y-auto를 추가하여 스크롤 문제를 해결했습니다. -->
     <div class="main-container max-w-4xl w-full bg-white rounded-xl shadow-lg p-4 md:p-10 border border-gray-200 relative max-h-screen overflow-y-auto">
-        <div class="logo-container">
-            <img src="https://raw.githubusercontent.com/incarmarketing/stock-compensation/main/logo.png" alt="회사 로고" class="company-logo">
-            <img src="https://raw.githubusercontent.com/incarmarketing/stock-compensation/main/kosdaq.png" alt="코스닥 로고" class="kosdaq-logo">
+        
+        <!-- 상단 ITA 로고 (가운데 정렬) -->
+        <div class="flex justify-center mb-6">
+            <img src="https://raw.githubusercontent.com/incarmarketing/ITA_FAQ/main/ITA.png" alt="ITA 로고" class="w-40 md:w-56 h-auto">
         </div>
 
-        <header class="mb-8 text-center mt-8">
-            <h1 class="qna-title font-bold text-gray-900 leading-tight mb-2">회사 주식 특별 배분 관련 FAQ</h1>
-            <p class="qna-subtitle text-gray-600">
-                영업가족 여러분의 정확한 이해를 돕기 위해 주식 특별 배분의 모든 절차와 유의사항에 대해 단계별로 질문과 답변을 정리했습니다. 본인에게 해당하는 내용을 꼼꼼히 확인해 주시기 바랍니다.
+        <header class="mb-8 text-center mt-2">
+            <h1 class="qna-title font-bold text-gray-900 leading-tight mb-2">2026년 ITA 선발<br class="md:hidden"> 유지율 기준 변경 안내</h1>
+            <p class="qna-subtitle text-gray-600 mt-4">
+                ITA 여러분의 건승을 기원합니다.<br>
+                2026년 ITA(Incar Top Advisor) 선발 요건 중 유지율 기준이 일부 변경됨에 따라,<br class="hidden md:block">
+                그 취지와 상세 내용을 FAQ 형식으로 정리하여 안내해 드립니다.
             </p>
         </header>
 
         <div class="space-y-6">
+            <!-- PART 1: 배경 및 목적 -->
             <div class="bg-gray-50 rounded-lg p-5 shadow-sm">
                 <h2 class="part-title font-bold text-gray-800 mb-4 border-b pb-2 border-gray-300">
-                    PART 1. 지급 대상 <br class="md:hidden">(누가, 어떤 기준으로 받나요?)
+                    PART 1. 변경 배경 및 목적 <br class="md:hidden">(왜 변경되었나요?)
                 </h2>
                 <div class="space-y-4">
                     <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
                         <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q1. 먼저, 이 주식 특별 배분은 누가 받을 수 있는 건가요?</span>
+                            <span>Q1. 유지율 기준을 변경하게 된 주된 이유는 무엇인가요?</span>
                             <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </summary>
                         <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            2025년 ISF(Incar Summer Festival) 최종 달성자로 선정된 분들께 지급됩니다. 자세한 내용은 2025년 6월 24일 마케팅부에서 공지한 “회사 성과 공유를 위한 주식 특별 배분 시행의 건.pdf” 파일을 참고하시기 바랍니다. 
+                            가장 큰 목적은 <strong>전사 영업 기준안과 ITA 선발 요건의 기준을 통일</strong>하기 위함입니다. 이를 통해 평가 기준을 일원화하여 현장의 혼선을 방지하고 지표 관리의 효율성을 높이고자 합니다. 아울러 우량 계약의 유입을 유도하고 장기 유지율을 제고하려는 목적도 있습니다.
                         </div>
                     </details>
                     <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
                         <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q2. ISF 달성 기준이 무엇인지 다시 확인하고 싶습니다.</span>
+                            <span>Q2. 이번 기준 변경을 통해 기대하는 효과는 무엇인가요?</span>
                             <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </summary>
                         <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            세부적인 달성 기준은 IIMS에 공지했던 “회사 성과 공유를 위한 주식 특별 배분 시행의 건.pdf” 파일을 참고하시기 바랍니다.
+                            평가 기준이 하나로 통일됨으로써 현장에서 목표를 설정하고 관리하는 데 혼선을 줄일 수 있으며, 전사적으로 지표 관리가 더욱 체계적이고 효율적으로 이루어질 것으로 기대합니다.
+                        </div>
+                    </details>
+                </div>
+            </div>
+
+            <!-- PART 2: 상세 변경 내용 -->
+            <div class="bg-gray-50 rounded-lg p-5 shadow-sm">
+                <h2 class="part-title font-bold text-gray-800 mb-4 border-b pb-2 border-gray-300">
+                    PART 2. 상세 변경 내용 <br class="md:hidden">(무엇이, 어떻게 바뀌나요?)
+                </h2>
+                <div class="space-y-4">
+                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
+                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
+                            <span>Q1. 유지율 평가 기준은 어떻게 변경되나요?</span>
+                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </summary>
+                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
+                            <p class="mb-2">기존 '통산유지율' 평가 방식에서 <strong>'회차 평균유지율'</strong>로 평가 기준이 변경됩니다. 변경된 회차 평균유지율은 아래와 같은 공식으로 산출됩니다.</p>
+                            
+                            <div class="overflow-x-auto py-2">
+                                <div class="flex items-center justify-center my-2 p-4 bg-gray-50 rounded border border-gray-200 min-w-[300px]">
+                                    <span class="font-bold text-gray-800 mr-2 whitespace-nowrap text-sm md:text-base">회차 평균유지율 = </span>
+                                    <div class="flex flex-col items-center mx-2">
+                                        <div class="border-b border-black px-2 pb-1 text-center text-xs md:text-sm">최근 6개월 n회차 유지계약 인정실적 합계</div>
+                                        <div class="px-2 pt-1 text-center text-xs md:text-sm">최근 6개월 n회차 모집계약 인정실적 합계</div>
+                                    </div>
+                                    <span class="font-bold text-gray-800 ml-2 whitespace-nowrap text-sm md:text-base"> X 100%</span>
+                                </div>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-2 bg-gray-50 p-2 rounded">※ 단, 유지계약 인정실적의 경우 각 회차 도래 시기 확정된 실적을 기준으로 평가하며 이후 부활, 감액, 증액은 반영하지 않습니다.</p>
                         </div>
                     </details>
                     <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
                         <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q3. 제가 최종 달성자인지 아닌지 언제, 어떻게 알 수 있나요?</span>
+                            <span>Q2. 구체적으로 어떤 기준을 충족해야 선발 대상이 되나요?</span>
                             <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                         </summary>
                         <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            <p class="mb-2">
-                                최종 달성자 명단은 9월 29일(8월 ISF 실적 확정 시) 확정됩니다. 다만, 원활한 지급 업무를 위해 합산 실적 1구간 달성자 및 달성 예상자, 상위구간 달성자에게 확정일 이전 제3자 정보제공동의서 제출 및 삼성증권 계좌개설을 안내드립니다.
+                            <p class="mb-4 text-sm text-gray-600">
+                                * 회차 평균유지율 목표는 <strong>2025년 회사 손생보 합산 평균 유지율 수준</strong>으로 설정하여, 변경되는 유지율 기준에 ITA 여러분이 안정적으로 적응하고 연착륙하실 수 있도록 고려하였습니다.
                             </p>
-                            <p>
-                                (단, 최종 달성자 확정일 이후 청약철회, 취소, 실효, 해지, 감액 등이 반영되어 1구간 달성이 안되거나 구간이 하락할 경우, 최종적으로 주식을 지급을 받지 못하거나 수량의 변동이 있을 수 있습니다.)
-                            </p>
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q4. ISF를 달성했으면 무조건 주식을 받게 되나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            아닙니다. ISF를 달성하셨더라도, 아래의 경우에는 지급 대상에서 최종적으로 제외됩니다. 이는 ISF 시상안에도 공지되어 있습니다.
-                            <div class="mt-2 space-y-1">
-                                <p>• 2025년 ISF 기간 모집 계약 중 '불완전판매계약' 건이 있는 경우</p>
-                                <p>• 주식 지급일 기준 재직상태가 아닐 경우(IIMS_영업가족직원관리 기준)</p>
-                                <p>• 9월 30일 까지 삼성증권 신규 계좌개설을 하지 않은 경우</p>
+
+                            <h3 class="font-bold text-gray-800 mb-2 text-sm border-l-4 border-blue-600 pl-2">1. 회차별 목표 유지율</h3>
+                            <div class="overflow-x-auto mb-6">
+                                <table class="w-full text-sm text-center text-gray-700 border border-gray-200">
+                                    <thead class="text-xs text-gray-700 uppercase bg-blue-50">
+                                        <tr>
+                                            <th scope="col" class="px-4 py-2 border-b border-r">7회차</th>
+                                            <th scope="col" class="px-4 py-2 border-b border-r">13회차</th>
+                                            <th scope="col" class="px-4 py-2 border-b border-r">18회차</th>
+                                            <th scope="col" class="px-4 py-2 border-b">25회차</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="bg-white">
+                                            <td class="px-4 py-2 font-bold text-blue-700 border-r">93%</td>
+                                            <td class="px-4 py-2 font-bold text-blue-700 border-r">87%</td>
+                                            <td class="px-4 py-2 font-bold text-blue-700 border-r">83%</td>
+                                            <td class="px-4 py-2 font-bold text-blue-700">73%</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
+
+                            <h3 class="font-bold text-gray-800 mb-2 text-sm border-l-4 border-blue-600 pl-2">2. 등록 차월별 달성 조건</h3>
+                            <div class="overflow-x-auto">
+                                <table class="w-full text-sm text-left text-gray-700 border border-gray-200">
+                                    <thead class="text-xs text-gray-700 uppercase bg-gray-100">
+                                        <tr>
+                                            <th scope="col" class="px-4 py-3 border-b border-r text-center w-1/3">구분 (등록차월)</th>
+                                            <th scope="col" class="px-4 py-3 border-b text-center">달성 조건</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="bg-white border-b">
+                                            <th scope="row" class="px-4 py-3 font-medium text-gray-900 text-center border-r">32차월 이상</th>
+                                            <td class="px-4 py-3">
+                                                <span class="font-bold text-gray-800">25회차(73%) 달성</span> <span class="text-xs text-blue-600">(단, 7/13/18회차 중 1개 이상 추가 달성 필수)</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-gray-50 border-b">
+                                            <th scope="row" class="px-4 py-3 font-medium text-gray-900 text-center border-r">32차월 미만</th>
+                                            <td class="px-4 py-3">
+                                                <span class="font-bold text-gray-800">18회차(83%) 달성</span> <span class="text-xs text-blue-600">(단, 7/13회차 중 1개 이상 추가 달성 필수)</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-white border-b">
+                                            <th scope="row" class="px-4 py-3 font-medium text-gray-900 text-center border-r">25차월 미만</th>
+                                            <td class="px-4 py-3 font-bold text-gray-800">13회차(87%) 달성</td>
+                                        </tr>
+                                        <tr class="bg-gray-50">
+                                            <th scope="row" class="px-4 py-3 font-medium text-gray-900 text-center border-r">20차월 미만</th>
+                                            <td class="px-4 py-3 font-bold text-gray-800">7회차(93%) 달성</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-2">* 적용 유지율: 손생보합산, 각 회차별 최근 6개월 누적 기준</p>
                         </div>
                     </details>
                 </div>
             </div>
-
-            <div class="bg-gray-50 rounded-lg p-5 shadow-sm">
-                <h2 class="part-title font-bold text-gray-800 mb-4 border-b pb-2 border-gray-300">
-                    PART 2. 지급 절차 <br class="md:hidden">(무엇을, 언제까지 해야 하나요?)
-                </h2>
-                <div class="space-y-4">
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q1. 주식을 받기 위해 제가 해야 할 일을 순서대로 알려주세요.</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            크게 두 가지 절차를 반드시 기한 내에 완료해야 합니다.
-                            <div class="mt-2 space-y-2">
-                                <p><strong>1. 제3자 정보제공 동의:</strong> 25년 8월 11일부터 IIMS 또는 IMO에 접속하여 '개인정보 제3자 정보제공동의서’ 제출 절차를 진행합니다.(제출 시 25년 8월 18일 오전 10시부터 삼성증권 신규 계좌 개설 URL발송)</p>
-                                <img src="https://raw.githubusercontent.com/incarmarketing/stock-compensation/main/aa.jpeg" 
-                                    alt="제3자 제공동의 화면" 
-                                    class="w-full max-w-md mx-auto my-4 rounded-lg shadow-md added-image">
-                                <p><strong>2. 삼성증권 계좌 개설:</strong> 25년 9월 30일까지 꼭, 아래와 같이 삼성증권에서 보낸 URL을 통해 삼성증권 계좌를 만들어 주시면 됩니다.</p>
-                                <img src="https://raw.githubusercontent.com/incarmarketing/stock-compensation/main/test.jpg" 
-                                    alt="삼성증권 계좌 개설 URL 이미지" 
-                                    class="w-full max-w-md mx-auto my-4 rounded-lg shadow-md added-image">
-                            </div>
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q2. '제3자 정보제공동의'는 왜 해야 하나요? 안 하면 어떻게 되나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            삼성증권에서 계좌개설 안내 URL을 보내주기 위해 개인정보(연락처 등)를 전달하는 것에 대한 동의 절차입니다. 동의하지 않으면 URL을 받을 수 없으므로 다음 절차 진행이 불가능하며, 최종적으로 주식을 받을 수 없습니다.
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q3. 삼성증권 계좌가 꼭 필요한가요? 제가 쓰는 다른 증권사 계좌는 안되나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            네, 이번 주식 배분은 오직 삼성증권 계좌를 통해서만 지급됩니다. 다른 증권사는 단체 주식 배분 시스템이 없어 삼성증권 계좌로만 진행하는 점 양해 부탁드립니다.
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q4. 저는 이미 삼성증권 계좌가 있습니다. 그래도 계좌개설을 해야 하나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            <p class="mb-2">네, 기존에 삼성증권 계좌를 보유하고 계시더라도, 반드시 새로 계좌를 개설해 주시기 바랍니다. 기존 계좌의 경우 주식을 지급받기 위한 전환 업무가 비대면 처리가 불가합니다. 기존 계좌는 단 하나의 우대혜택을 보유하고 있는 계좌여도 주식 지급을 위한 계좌로 즉시 사용이 불가하고 영업점을 방문해야 하는 등 번거로움이 발생할 수 있습니다. 따라서 번거로움을 덜어 드리고자 모든 영업가족들에게 신규 계좌 개설을 요청드리게 되었습니다.</p>
-                            <p class="mb-2">신규 계좌개설에 따른 혜택은 아래와 같습니다.</p>
-                            <div class="mt-2 space-y-1">
-                                <p>1. 국내주식 매매수수료 평생 무료</p>
-                                <p>2. 국내주식 대체수수료 평생 무료</p>
-                                <p>3. 해외주식 매매수수료 3개월 무료(단, 기존 삼성증권을 통해 해외주식 매매한 내역이 없는 고객에 한함)</p>
-                                <p>4. 신규 계좌 개설에 따른 혜택은 실제 주식을 지급받은 분에 한하여 제공됩니다.</p>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q5. 삼성증권 계좌가 없습니다. 언제까지 만들어야 하나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            안내 받은 URL을 통해 2025년 9월 30일(화)까지 신규 계좌 개설을 완료해야 합니다. 이 날짜를 넘기면 주식을 받을 수 없습니다. 하지만 원활한 진행을 위하여 8월 18일부터 삼성증권 계좌개설이 가능합니다. 정확하고 빠른 주식 배분 업무를 위해 가능한 빠른 시기내에 계좌개설을 부탁드립니다.
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q6. 계좌를 만들다가 문제가 생겼습니다. 어떻게 해야 하나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            계좌 개설과 관련된 모든 문제(오류, 인증 불가 등)는 삼성증권 고객센터(1588-2323)에 문의해주시면 됩니다. 비대면 계좌 개설의 경우 아래와 같은 사유로 오류가 발생할 수 있습니다.
-                            <div class="mt-2 space-y-3">
-                                <div>
-                                    <p class="font-semibold">1. 본인인증 실패</p>
-                                    <div class="space-y-1">
-                                        <p>가. 신분증 훼손(사진이나 내용을 알아볼 수 없는 상태)</p>
-                                        <p>나. 신분증 사진과 현재 모습의 현저한 괴리(큰 상처나 화상자국, 성형 등으로 변화가 있는 경우)</p>
-                                        <p>다. 휴대폰 본인 인증 실패 및 다른 금융기관 계좌 확인 실패 시(본인명의 휴대폰 및 다른 금융기관 계좌만 인증 가능)</p>
-                                        <p>라. 본인명의 휴대폰이 없는 경우(계좌개설에 필요한 구비서류를 가지고 삼성증권 지점을 방문해 주시기 바랍니다.)</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p class="font-semibold">2. 비대면 계좌 개설 안심차단 서비스 이용으로 인한 불가 사유</p>
-                                    <div class="space-y-1">
-                                        <p>가. 서비스 신청한 고객을 대상으로 신규 비대면 계좌의 개설이 불가하도록 차단하는 서비스(보이스피싱 등 범죄 예방을 목적으로 신청되어 있는 경우가 있으나, 인지하지 못하는 경우가 있으니 문제 발생 시 반드시 확인 필요)</p>
-                                        <p>나. 서비스 이용 중인 영업가족의 경우 지점 내방하여 계좌 개설 가능</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p class="font-semibold">3. 기타</p>
-                                    <div class="space-y-1">
-                                        <p>가. 외국인의 경우 지점 내방 후 개설(비대면 불가, 대면 가능)</p>
-                                        <p>나. 과거 대포통장, 보이스피싱 연루 등의 경우 비대면 계좌개설 시도 시 자동 거절(비대면, 대면 모두 개설 불가)</p>
-                                        <div>
-                                            <p>다. 신용불량인 경우도 계좌개설 가능(비대면 가능)</p>
-                                            <p class="text-xs">※ 법원의 금지 명령이 있는 경우 불가할 수 있음(회생 중 계좌개설 및 주식 지급 등으로 발생할 수 있는 법적 분쟁의 경우 회사가 책임지지 않으므로 반드시 관련 법률 전문가의 상담을 받을 것을 권고합니다.)</p>
-                                            <p class="text-xs">※ 신용문제로 개설이 안되는 경우, 증권사나 회사에 즉시 통보해주시기 바랍니다.</p>
-                                        </div>
-                                        <div>
-                                            <p>라. 비대면 계좌 개설 20일 제한(영업일 기준)의 경우 예외적으로 주식보상전용계좌 개설 가능(비대면 가능)</p>
-                                            <p class="text-xs">※ 증권사 또는 은행 계좌개설 이벤트 등 참여로 제한이 걸리는 경우</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-6">
-                                <h3 class="font-bold text-base mb-2 text-gray-800">[대면 계좌 개설 안내]</h3>
-                                <div class="space-y-1">
-                                    <p><a href="https://www.samsungpop.com/mbw/start/branchAccount.pop" target="_blank" class="text-blue-600 hover:underline">▶ 삼성증권 지점 방문 계좌 개설 안내 바로가기</a></p>
-                                    <p class="text-xs">※ 은행 또는 우체국에서 계좌 개설 시 삼성증권 지점 내방하여 주식 보상용으로 별도 전환 절차가 필요하니 꼭, 삼성증권 지점에서 계좌 개설 해주시기를 바랍니다.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q7. 계좌를 만들었는데 어디서 확인하나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            <p class="mb-2">아래의 방법으로 개설된 계좌를 확인하세요.</p>
-                            <img src="https://raw.githubusercontent.com/incarmarketing/stock-compensation/main/test2.jpg"
-                                alt="개설된 계좌 확인 화면"
-                                class="w-full max-w-md mx-auto my-4 rounded-lg shadow-md added-image">
-                        </div>
-                    </details>
-                </div>
-            </div>
-
-            <div class="bg-gray-50 rounded-lg p-5 shadow-sm">
-                <h2 class="part-title font-bold text-gray-800 mb-4 border-b pb-2 border-gray-300">
-                    PART 3. 주식 지급 및 세금 <br class="md:hidden">(어떻게 받고, 세금은 얼마나?)
-                </h2>
-                <div class="space-y-4">
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q1. 주식은 정확히 언제, 어떻게 들어오나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            <p class="mb-2">주요 일정은 아래와 같으며, 최종적으로 <strong>2025년 10월 20일(예정)</strong>에 영업가족님의 삼성증권 계좌로 주식이 입고됩니다.</p>
-                            <div class="mt-2 space-y-1 border-l-2 border-gray-200 pl-4">
-                                <p><strong>8월 11일:</strong> 제3자 정보제공 동의절차 개시</p>
-                                <p><strong>8월 18일:</strong> 정보제공 동의자 대상 계좌개설 URL 발송 시작</p>
-                                <p><strong>8월 19일 ~ 9월 26일:</strong> 정보제공 동의 및 URL 발송 반복</p>
-                                <p><strong>9월 29일:</strong> 대상자 확정, 지급일 전 수금결과 및 유지여부에 따라 변동</p>
-                                <p><strong>9월 30일:</strong> 삼성증권 계좌개설 완료 마감</p>
-                                <p><strong>10월 20일 (예정):</strong> 영업가족 삼성증권 계좌로 회사 주식 입고</p>
-                            </div>
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q2. 주식 대신 현금으로 받을 수는 없나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            네, 불가능합니다. 이번 특별 배분은 오직 주식 현물로만 지급됩니다. 
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q3. 세금은 어떻게 계산 되나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            주식 지급일의 종가(그날 주식 시장이 마감될 때의 가격)를 기준으로 본인의 소득 귀속 금액이 결정되고 10월 급여지급일 3.3% 원천징수합니다.
-                        </div>
-                    </details>
-                </div>
-            </div>
-
-            <div class="bg-gray-50 rounded-lg p-5 shadow-sm">
-                <h2 class="part-title font-bold text-gray-800 mb-4 border-b pb-2 border-gray-300">
-                    PART 4. 기타 중요사항 <br class="md:hidden">(반드시 확인하세요!)
-                </h2>
-                <div class="space-y-4">
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q1. 만약 제가 주식 지급일 전 회사를 그만두게 되면 주식을 받을 수 있나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            아니요, 받을 수 없습니다. 주식 지급 기준일인 10월 20일에 위촉 상태를 유지하고 있는 영업가족에게만 지급됩니다.
-                        </div>
-                    </details>
-                    <details class="group border border-gray-300 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-md">
-                        <summary class="flex justify-between items-center bg-gray-100 p-4 cursor-pointer question-text font-semibold text-gray-800">
-                            <span>Q2. 제가 바빠서 9월 30일까지 계좌 개설을 못 했습니다. 나중에라도 받을 수 있나요?</span>
-                            <svg class="chevron-icon w-5 h-5 text-gray-600 transition-transform duration-300 transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                        <div class="bg-white p-4 border-t border-gray-300 answer-text text-gray-700 leading-relaxed">
-                            죄송합니다. 안내된 절차와 기한을 지키지 않아 주식을 받지 못하는 경우, 회사에서는 책임질 수 없습니다. 이번 특별 주식 배분의 경우 자본시장법 및 상법 등 관련 법령에서 정하는 요건과 절차 때문에 추후 재지급이 어렵습니다. 
-                        </div>
-                    </details>
-                </div>
-            </div>
-
         </div>
         
         <div class="mt-10 pt-6 border-t border-gray-300 text-sm text-gray-600">
-            <p class="mb-2">※ 추가 안내가 필요한 사항이 있을 경우 FAQ에 반영할 예정입니다.</p>
-            <p>※ 안내드린 내용 외에 더 궁금한 점이 있으시면 마케팅부(담당자 최진우, 02-6212-4650)로 연락 주시기 바랍니다.</p>
+            <p class="mb-2">※ 추가 안내가 필요한 사항이 있을 경우 본 FAQ에 지속적으로 반영할 예정입니다.</p>
+            <p>※ 안내드린 내용 외에 더 궁금한 점이 있으시면 <strong>마케팅부(담당자 최진우, 02-6212-4650)</strong>로 문의하여 주시기 바랍니다.</p>
+        </div>
+
+        <!-- 하단 로고 (회사 + 코스닥) -->
+        <div class="flex justify-center items-center gap-4 mt-8 pt-4">
+             <img src="https://raw.githubusercontent.com/incarmarketing/ITA_FAQ/main/logo.png" alt="회사 로고" class="w-24 md:w-28 h-auto">
+             <img src="https://raw.githubusercontent.com/incarmarketing/ITA_FAQ/main/kosdaq.png" alt="코스닥 로고" class="w-20 md:w-24 h-auto">
         </div>
 
     </div>
 </body>
 </html>
-<!-- 캐시 새로고침을 위한 주석 -->
